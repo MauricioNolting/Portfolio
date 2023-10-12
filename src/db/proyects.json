@@ -1,0 +1,21 @@
+[{
+    "title": "Rick y Morty",
+    "img": "https://files.lafm.com.co/assets/public/2019-12/rick_and_morty_2_1_0.jpg",
+    "leng": ["HTML ", "TAILWIND ", "REACT @VITE "],
+    "description": "Pagina con datos de todos personajes de la serie",
+    "link": "https://ryck-and-morty-mauricionolting.netlify.app/"
+},{
+    "title": "App wheater",
+    "img": "https://files.lafm.com.co/assets/public/2019-12/rick_and_morty_2_1_0.jpg",
+    "leng": ["HTML ", "TAILWIND ", "REACT @VITE "],
+    "description": "Pagina con datos de todos personajes de la serie",
+    "link": "https://ryck-and-morty-mauricionolting.netlify.app/"
+},{
+    "title": "Galleta de la Fortuna",
+    "img": "https://files.lafm.com.co/assets/public/2019-12/rick_and_morty_2_1_0.jpg",
+    "leng": ["HTML ", "TAILWIND ", "REACT @VITE "],
+    "description": "Pagina con datos de todos personajes de la serie",
+    "link": "https://ryck-and-morty-mauricionolting.netlify.app/"
+}
+]
+

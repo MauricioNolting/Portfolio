@@ -2,6 +2,8 @@ import './App.css'
 import Home from './components/Home'
 import Imagen from './components/Imagen'
 import Main from './components/Main'
+import Proyects from './components/Proyects'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -11,6 +13,10 @@ function App() {
       <Main/>
       <Home/>
       <Imagen/>
+
+      {/* mostrar los proyectos */} 
+      <Proyects/>
+      <Skills/>
    </div>
   )
 }

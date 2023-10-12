@@ -15,7 +15,7 @@ const Imagen = () => {
          
         <div className="border-2 border-[#ABB2BF]  bg-[#3028338a] w-[302px] h-[58px] bottom-[170px] mx-auto z-30 relative flex justify-start items-center gap-3">  
             <div className="h-4 w-4 bg-[#C778DD] ml-3"></div>
-            <p className="text-sm "> <span className="font-semibold">Portafolio</span> actualmente en trabajo</p>
+            <p className="text-sm "> <span className="font-bold">Portafolio</span> actualmente en trabajo</p>
 
         </div>
       </div>
