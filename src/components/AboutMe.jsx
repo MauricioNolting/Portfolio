@@ -1,7 +1,11 @@
 const AboutMe = () => {
   return (
     <div>
-           <h1 className="mb-4 text-2xl border-2 bg-[#ea07bc4b] px-4 min-w-[250px] max-w-[300px] h-10 my-auto sm:ml-[50px] ml-[10px]">#About Me====={">"}</h1>
+             <div className="justify-start items-start flex pl-10 ">
+    <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">#</div>
+    <div className="text-white text-[32px] font-medium font-['Fira Code']">About me</div>
+    <img className="relative top-6 w-[150px] sm:w-auto sm:border-none border-2 border-purple-400" src="/Line.png" alt="" />
+  </div>
            <div className="max-w-[600px] text-justify mx-auto font-thin px-4">
             <p>
                 Hello, i am Mauricio Nolting

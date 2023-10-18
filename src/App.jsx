@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import AboutMe from './components/AboutMe'
 import Home from './components/Home'
@@ -8,10 +9,16 @@ import Skills from './components/Skills'
 
 function App() {
 
+  const [openMenu, setopenMenu] = useState(false)
+
+  const handleOpenMenu = () => {
+    setopenMenu(!openMenu)
+  }
+
 
   return (
    <div className="font-['Fira_Code',monospace;] text-white bg-gray-800 min-h-screen">
-      <Main/>
+      <Main handleOpenMenu={handleOpenMenu} openMenu={openMenu}/>
       <Home/>
       <Imagen/>
 
@@ -19,6 +26,7 @@ function App() {
       <Proyects/>
       <Skills/>
       <AboutMe/>
+    
    </div>
   )
 }
