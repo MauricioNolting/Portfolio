@@ -1,4 +1,5 @@
 import './App.css'
+import AboutMe from './components/AboutMe'
 import Home from './components/Home'
 import Imagen from './components/Imagen'
 import Main from './components/Main'
@@ -17,6 +18,7 @@ function App() {
       {/* mostrar los proyectos */} 
       <Proyects/>
       <Skills/>
+      <AboutMe/>
    </div>
   )
 }
