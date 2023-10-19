@@ -6,6 +6,8 @@ import Imagen from './components/Imagen'
 import Main from './components/Main'
 import Proyects from './components/Proyects'
 import Skills from './components/Skills'
+import Form from './components/Form'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -26,7 +28,8 @@ function App() {
       <Proyects/>
       <Skills/>
       <AboutMe/>
-    
+      <Form/>
+      <Footer/>
    </div>
   )
 }
