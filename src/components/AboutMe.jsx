@@ -1,13 +1,13 @@
 const AboutMe = () => {
   return (
     <div id="about-me">
-             <div className="justify-start items-start flex">
+             <div id="contact" className="justify-start items-start flex sm:pl-10">
     <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">#</div>
     <div className="text-white text-[32px] font-medium font-['Fira Code']">About me</div>
     <img className="relative top-6 w-[150px] sm:w-auto sm:border-none border-2 border-purple-400" src="/Line.png" alt="" />
   </div>
            <div className="max-w-[600px] text-justify mx-auto font-thin px-4">
-            <p className="leading-3 hover:leading-6 transition-all hover:text-purple-300 h-[300px] flex items-center pt-5 mt-3">
+            <p className="leading-3 hover:leading-6 transition-all text-purple-300 hover:text-white h-[300px] flex items-center pt-5 mt-3">
                 Hello, i am Mauricio Nolting
                 <br/>
                 <br/>

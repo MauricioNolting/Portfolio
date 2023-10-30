@@ -7,6 +7,7 @@ const Menu = ({handleOpenMenu}) => {
         <a href="#projects" className=" hover:text-purple-400 transition-colors"><span className="text-purple-400 mr-1">#</span>Projects</a>
         <a href="#skills" className=" hover:text-purple-400 transition-colors"><span className="text-purple-400 mr-1">#</span>Skills</a>
         <a href="#about-me" className=" hover:text-purple-400 transition-colors"><span className="text-purple-400 mr-1">#</span>About-me</a>
+        <a href="#contact" className=" hover:text-purple-400 transition-colors"><span className="text-purple-400 mr-1">#</span>Contact</a>
         </div>
         <button onClick={handleOpenMenu} className="absolute top-1 right-1 hover:text-purple-400 transition-colors rounded-full w-8 ">x</button>
     </div>

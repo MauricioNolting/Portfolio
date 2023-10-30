@@ -7,7 +7,7 @@ const Proyects = () => {
 
   return (
     <main className="mx-auto"> 
-       <div className="justify-start items-start flex">
+       <div className="justify-start items-start flex sm:pl-10">
     <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">#</div>
     <div id="projects" className="text-white text-[32px] font-medium font-['Fira Code']">Projects</div>
     <img className="relative top-6 w-[170px] sm:w-auto sm:border-none border-2 border-purple-400" src="/Line.png" alt="" />

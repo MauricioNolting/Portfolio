@@ -2,20 +2,36 @@
     "title": "Rick y Morty",
     "img": "https://files.lafm.com.co/assets/public/2019-12/rick_and_morty_2_1_0.jpg",
     "leng": ["HTML ", "TAILWIND ", "REACT @VITE "],
-    "description": "Pagina con datos de todos personajes de la serie",
+    "description": "Conoce a todos personajes de la serie",
     "link": "https://ryck-and-morty-mauricionolting.netlify.app/"
 },{
     "title": "App wheater",
-    "img": "https://files.lafm.com.co/assets/public/2019-12/rick_and_morty_2_1_0.jpg",
+    "img": "https://services.meteored.com/img/article/microfisica-de-nubes-y-formacion-de-la-lluvia-1670754813980_1280.jpeg",
     "leng": ["HTML ", "TAILWIND ", "REACT @VITE "],
-    "description": "Pagina con datos de todos personajes de la serie",
-    "link": "https://ryck-and-morty-mauricionolting.netlify.app/"
+    "description": "Clima en tu ubicación, como tambien de la que gustes",
+    "link": "https://app-weather-mauricionolting.netlify.app"
 },{
     "title": "Galleta de la Fortuna",
-    "img": "https://files.lafm.com.co/assets/public/2019-12/rick_and_morty_2_1_0.jpg",
+    "img": "https://img.freepik.com/fotos-premium/galletas-dibujos-animados-dibujados-mano_826551-4217.jpg?w=2000",
     "leng": ["HTML ", "TAILWIND ", "REACT @VITE "],
-    "description": "Pagina con datos de todos personajes de la serie",
-    "link": "https://ryck-and-morty-mauricionolting.netlify.app/"
+    "description": "Prueba tu suerte!",
+    "link": "https://galletadelafortuna-mauricionolting.netlify.app"
+}
+,{
+    "title": "Pokémon",
+    "img": "https://thecolor.blog/wp-content/uploads/2021/11/el-logo-de-pokemon-930x620.jpg",
+    "leng": ["HTML ", "TAILWIND ", "REACT @VITE "],
+    "description": "Busca a tu pokemón favorito!",
+    "link": "https://pokedex-mauricionolting.netlify.app"
+},{
+    "title": "Carrito de compras",
+    "img": "https://media.istockphoto.com/id/1338894509/es/foto/mujer-eligiendo-un-nuevo-estilo-para-s%C3%AD-misma.jpg?s=612x612&w=0&k=20&c=OfG0uvv9ad9kuQ26XhrrJaYbUxlml3kloMhDZRITJCA=",
+    "leng": ["HTML ", "CSS ", "JS"],
+    "description": "Página con datos de todos personajes de la serie",
+    "link": "https://carrito-de-compras-mauricionolting.netlify.app/"
 }
 ]
+
+
+
 

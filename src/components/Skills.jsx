@@ -3,9 +3,9 @@
 
 const Skills = () => {
   return (
-    <div id="skills" className="mx-auto my-9 h-[300px] relative z-50">
+    <div className="mx-auto my-9 h-[300px] relative z-50">
      
-  <div className="justify-start items-start flex ">
+  <div id="skills"  className="justify-start items-start flex sm:pl-10 ">
     <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">#</div>
     <div  className="text-white text-[32px] font-medium font-['Fira Code']">Skills</div>
     <img className="relative top-6 w-[170px] sm:w-auto sm:border-none border-2 border-purple-400" src="/Line.png" alt="" />
