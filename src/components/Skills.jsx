@@ -17,13 +17,13 @@ const Skills = () => {
        <div className="flex gap-3 flex-row-reverse pr-9 flex-wrap relative z-10">
           <section className="grid gap-3">  
           
-              <div className="border-2 w-[140px] sm:w-[200px] my-2">
+              <div className="border-2 w-[120px] sm:w-[200px] my-2">
                 <h3 className="font-bold border-b-2">Lenguajes</h3>
                 <ul>
                   <li>JavaScript</li>
                </ul>
               </div>
-              <div className="border-2 w-[140px] sm:w-[200px] my-2">
+              <div className="border-2 w-[120px] sm:w-[200px] my-2">
                 <h3 className="font-bold border-b-2">Tools</h3>
                 <ul>
                   <li>VSCode</li>
@@ -33,14 +33,14 @@ const Skills = () => {
           </section>
 
           <section>
-          <div className="border-2 w-[140px] sm:w-[200px] my-2">
+          <div className="border-2 w-[120px] sm:w-[200px] my-2">
                 <h3 className="font-bold border-b-2">Databases</h3>
                 <ul>
                   <li>Nil</li>
                </ul>
             </div>
 
-              <div className="border-2 w-[140px] sm:w-[200px] my-2">
+              <div className="border-2 w-[120px] sm:w-[200px] my-2">
                 <h3 className="font-bold border-b-2">Other</h3>
                 <ul>
                   <li>HTML, CSS</li>
@@ -49,7 +49,7 @@ const Skills = () => {
           </section>
 
           <section>
-          <div className="border-2 w-[140px] sm:w-[200px] my-2">
+          <div className="border-2 w-[120px] sm:w-[200px] my-2">
                 <h3 className="font-bold border-b-2">Frameworks</h3>
                 <ul>
                   <li>Nil</li>

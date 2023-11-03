@@ -6,7 +6,7 @@ import Imagen from './components/Imagen'
 import Main from './components/Main'
 import Proyects from './components/Proyects'
 import Skills from './components/Skills'
-import Form from './components/Form'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <Proyects/>
       <Skills/>
       <AboutMe/>
-      <Form/>
+      <Contact/>
       <Footer/>
    </div>
   )
