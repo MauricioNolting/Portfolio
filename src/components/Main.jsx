@@ -3,7 +3,7 @@ import Menu from "./Menu";
 /* eslint-disable react/prop-types */
 const Main = ({ handleOpenMenu, openMenu }) => {
   return (
-    <div className="min-w-full h-12 px-4 pt-4 pb-2 justify-between items-center inline-flex py-[auto] fixed bg-slate-600 z-[100]">
+    <div className="w-screen h-12 px-4 pt-4 pb-2 justify-between items-center inline-flex py-[auto] fixed bg-slate-600 z-[100]">
       <div className="justify-start items-center gap-2 flex">
         <div className="w-4 h-4 relative">
           <img

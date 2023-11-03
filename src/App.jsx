@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-   <div className="font-['Fira_Code',monospace;] text-white bg-gray-800 min-h-screen">
+   <div className="font-['Fira_Code',monospace;] text-white bg-gray-800 min-h-screen w-screen">
       <Main handleOpenMenu={handleOpenMenu} openMenu={openMenu}/>
       <Home/>
       <Imagen/>
