@@ -10,7 +10,7 @@ const Contact = () => {
     setIsShowModal(true)
    }
   return (
-    <div className="h-auto my-10">
+    <div className="h-auto my-10 w-screen">
        
         <div className="justify-start items-start flex sm:pl-10 my-5">
     <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">#</div>

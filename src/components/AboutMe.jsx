@@ -1,10 +1,10 @@
 const AboutMe = () => {
   return (
-    <div id="about-me">
+    <div id="about-me w-screen">
              <div id="contact" className="justify-start items-start flex sm:pl-10">
     <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">#</div>
     <div className="text-white text-[32px] font-medium font-['Fira Code']">About me</div>
-    <img className="relative top-6 w-[150px] sm:w-auto sm:border-none border-2 border-purple-400" src="/Line.png" alt="" />
+    <img className="relative top-6 w-[100px] sm:w-auto sm:border-none border-2 border-purple-400" src="/Line.png" alt="" />
   </div>
            <div className="max-w-[600px] text-justify mx-auto font-thin px-4">
             <div className="flex justify-between">

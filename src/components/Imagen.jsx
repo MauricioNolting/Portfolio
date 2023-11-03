@@ -1,7 +1,7 @@
 const Imagen = () => {
   return (
-    <div className="w-96  mx-[auto]">
-      <div className="min-w-full mx-[auto]">
+    <div className="sm:w-screen max-w-auto  mx-[auto]">
+      <div className="mx-[auto]">
         
         <img
           className="w-[400px] h-[350px] object-cover relative mx-[auto] z-10"

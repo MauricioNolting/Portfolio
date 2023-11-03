@@ -3,20 +3,15 @@ import Menu from "./Menu";
 /* eslint-disable react/prop-types */
 const Main = ({ handleOpenMenu, openMenu }) => {
   return (
-    <div className="w-screen h-12 px-4 pt-4 pb-2 justify-between items-center inline-flex py-[auto] fixed bg-slate-600 z-[100]">
+    <div className="w-screen h-12 px-4 pt-4 pb-2 justify-between grid grid-cols-[auto,_auto,_auto] items-center  py-[auto] fixed bg-slate-600 z-[100]">
       <div className="justify-start items-center gap-2 flex">
-        <div className="w-4 h-4 relative">
-          <img
-            className="w-4 h-4 left-0 my-[auto]"
-            src="/logo/logoLetraM.png"
-          />
-        </div>
-        <div className="text-white text-base font-bold font-['Fira Code'] absolute">
+        
+        <div className="text-white text-base font-bold font-['Fira Code'] absolute bottom-2">
           Mauricio
         </div>
       </div>
       {/* nav */}
-      <div className="sm:visible w-0 invisible flex gap-10 justify-center  min-w-full">
+      <div className="sm:visible w-0 invisible flex gap-10 justify-center sm:w-auto">
         <a href="#home" className=" hover:text-purple-400 transition-colors">
           <span className="text-purple-400 mr-1 ">#</span>Home
         </a>

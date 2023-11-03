@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="min-w-full relative h-[180px] bg-slate-900 flex items-center">
+    <div className="min-w-screen relative h-[180px] bg-slate-900 flex items-center">
         <div className="flex items-center justify-between w-full ">
         <span className="text-sm ml-2 sm:ml-12">Web designer and front-end developer</span>
         <ul className="grid gap-2 text-sm p-6 absolute right-0 sm:mr-16">
