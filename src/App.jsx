@@ -19,8 +19,10 @@ function App() {
 
 
   return (
-   <div className="font-['Fira_Code',monospace;] text-white bg-gray-800 min-h-screen w-screen">
-      <Main handleOpenMenu={handleOpenMenu} openMenu={openMenu}/>
+   <div className="font-['Fira_Code',monospace;] text-white bg-gray-800 min-h-screen w-screen grid justify-center">
+    <Main handleOpenMenu={handleOpenMenu} openMenu={openMenu}/>
+    <div className='max-w-[1100px] overflow-auto mx-auto px-6'>
+      
       <Home/>
       <Imagen/>
 
@@ -29,8 +31,12 @@ function App() {
       <Skills/>
       <AboutMe/>
       <Contact/>
+    </div>
+
+    <div className='w-screen'>
       <Footer/>
-   </div>
+    </div>
+  </div>
   )
 }
 
