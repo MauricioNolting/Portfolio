@@ -11,7 +11,7 @@ const Main = ({ handleOpenMenu, openMenu }) => {
         </div>
       </div>
       {/* nav */}
-      <div className="sm:visible w-0 invisible flex gap-10 justify-center sm:w-auto">
+      <div className="sm:visible w-0 invisible flex gap-4 justify-center sm:w-auto">
         <a href="#home" className=" hover:text-purple-400 transition-colors">
           <span className="text-purple-400 mr-1 ">#</span>Home
         </a>

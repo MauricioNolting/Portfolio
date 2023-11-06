@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
-    <div id="about-me w-screen">
-             <div id="contact" className="justify-start items-start flex sm:pl-10">
+    <div id="about-me" className="w-screen">
+             <div id="" className="justify-start items-start flex sm:pl-10">
     <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">#</div>
     <div className="text-white text-[32px] font-medium font-['Fira Code']">About me</div>
     <img className="relative top-6 w-[100px] sm:w-auto sm:border-none border-2 border-purple-400" src="/Line.png" alt="" />
