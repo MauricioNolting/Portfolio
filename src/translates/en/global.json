@@ -1,0 +1,37 @@
+{
+    "main": {
+        "inicio": "Home",
+        "sobre-mi": "About me",
+        "proyectos": "Projects",
+        "habilidades": "Skills",
+        "contacto": "Contact"
+    },
+    "home": {
+        "home-1": "Full-Stack developer",
+        "home-2": "Create responsive websites where technology meets creativity."
+    },
+    "image": {
+    "1": "Portfolio",
+    "2": "Currently at work"
+    },
+    "about-me": {
+        "1": "About Me",
+        "2": "Hello, I'm Mauricio Nolting,",
+        "3": "a dedicated and responsible 26-year-old professional with a passion for technology. I am a skilled full-stack developer and hold a degree in Maritime Security. My commitment to excellence and my strong work ethic drive me to create innovative and efficient solutions. I thrive in challenging environments, where I can utilize my technical expertise to solve problems and deliver high-quality results. I am constantly seeking opportunities to expand my knowledge and skills, and I am excited about the prospect of contributing to meaningful projects. Let's work together to turn ideas into reality. I want to express my sincere gratitude for taking the time to read the above. It represents not only my personal journey but also my dreams and aspirations.",
+        "4": "I want to express my sincere gratitude for taking the time to read the above. It represents not only my personal journey but also my dreams and aspirations."
+    },
+    "skills": {
+        "herramientas": "Tools",
+        "base-de-datos": "Data bases",
+        "otros": "Others"
+    },
+    "contact": {
+        "1": "I am interested in opportunities and would be grateful if you could consider me for any project. I am fully available and ready to contribute with my experience and skills. Please do not hesitate to contact me if you need more information or if there are any other questions or requests I can assist you with.",
+        "2": "Contact",
+        "3": "Contact me"
+    },
+    "footer": {
+    "1": "Full-stack Web Developer",
+    "2": "Copyright 2024. Made by Mauricio Nolting"
+    }
+}
