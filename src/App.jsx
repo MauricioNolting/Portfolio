@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Home from "./components/Home";
@@ -11,14 +11,32 @@ import Footer from "./components/Footer";
 
 function App() {
   const [openMenu, setopenMenu] = useState(false);
+  const [theme, setTheme] = useState("dark");
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.querySelector("html").classList.add("dark");
+    } else {
+      document.querySelector("html").classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleChangeTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   const handleOpenMenu = () => {
     setopenMenu(!openMenu);
   };
 
   return (
-    <div className="font-['Fira_Code',monospace;] text-white bg-gray-800 min-h-screen w-screen grid justify-center m-0">
-      <Main handleOpenMenu={handleOpenMenu} openMenu={openMenu} />
+    <div className="font-['Fira_Code',monospace;] text-white bg-gray-800 min-h-screen min-w-max grid justify-center m-0 dark:bg-white dark:text-slate-900">
+      <Main
+        handleOpenMenu={handleOpenMenu}
+        openMenu={openMenu}
+        handleChangeTheme={handleChangeTheme}
+        theme={theme}
+      />
 
       <Home />
       <Imagen />

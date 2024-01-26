@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 const Footer = () => {
   const [t] = useTranslation("global");
   return (
-    <div className="min-w-screen relative h-[180px] bg-slate-900 flex items-center">
-      <div className="flex items-center justify-between w-full ">
+    <div className="min-w-screen relative h-[180px] bg-slate-900 flex items-center dark:bg-purple-900 ">
+      <div className="flex items-center justify-between w-full dark:text-white dark:font-semibold">
         <span className="text-sm ml-2 sm:ml-12 sm:w-auto w-[250px]">
           {t("footer.1")}
         </span>
@@ -57,7 +57,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="absolute bottom-0 text-xs font-light w-full grid justify-center">
+      <div className="absolute bottom-0 text-xs font-light w-full grid justify-center dark:text-white">
         <span> {t("footer.2")}</span>
       </div>
     </div>

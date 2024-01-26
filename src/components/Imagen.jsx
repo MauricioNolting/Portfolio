@@ -14,11 +14,14 @@ const Imagen = () => {
           alt="lineasLogo"
         />
 
-        <div className="border-2 border-[#ABB2BF]  bg-[#3028338a] w-[302px] h-[58px] bottom-[170px] mx-auto z-30 relative flex justify-start items-center gap-3">
+        <div className="border-2 border-[#ABB2BF]  bg-[#3028338a] w-[302px] h-[58px] bottom-[170px] mx-auto z-30 relative flex justify-start items-center gap-3 dark:border-purple-700">
           <div className="h-4 w-4 bg-[#C778DD] ml-3"></div>
-          <p className="text-sm ">
+          <p className="text-sm dark:text-white ">
             {" "}
-            <span className="font-bold">{t("image.1")}</span> {t("image.2")}
+            <span className="font-bold dark:text-white">
+              {t("image.1")}
+            </span>{" "}
+            {t("image.2")}
           </p>
         </div>
       </div>

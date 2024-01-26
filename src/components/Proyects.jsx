@@ -6,13 +6,13 @@ const Proyects = () => {
   const [t] = useTranslation("global");
   return (
     <main className="mx-auto w-screen">
-      <div className="justify-start items-start flex sm:pl-10 ">
-        <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">
+      <div className="justify-start items-start flex sm:pl-10">
+        <div className="text-purple-400 text-[32px] font-medium font-['Fira Code'] dark:text-purple-800">
           #
         </div>
         <div
           id="projects"
-          className="text-white text-[32px] font-medium font-['Fira Code']"
+          className="text-white text-[32px] font-medium font-['Fira Code'] dark:text-purple-800"
         >
           {t("main.proyectos")}
         </div>

@@ -2,7 +2,7 @@ import { useState } from "react";
 import Menu from "./Menu";
 import { useTranslation } from "react-i18next";
 /* eslint-disable react/prop-types */
-const Main = ({ handleOpenMenu, openMenu }) => {
+const Main = ({ handleOpenMenu, openMenu, handleChangeTheme, theme }) => {
   const [isShowLenguaje, setIsShowLenguaje] = useState(false);
 
   const handleShowLenguaje = () => {
@@ -19,7 +19,7 @@ const Main = ({ handleOpenMenu, openMenu }) => {
   };
   const [t, i18n] = useTranslation("global");
   return (
-    <div className="w-screen h-12 px-4 pt-4 pb-2 justify-between grid grid-cols-[auto,_auto,_auto] items-center  py-[auto] fixed bg-slate-600 z-[100]">
+    <div className="w-screen h-12 px-4 pt-4 pb-2 justify-between grid grid-cols-[auto,_auto,_auto] items-center  py-[auto] fixed bg-slate-600 z-[100] dark:text-white dark:bg-purple-800 dark:font-semibold">
       <div className="justify-start items-center gap-2 flex">
         <div className="text-white text-base font-bold font-['Fira Code'] absolute bottom-2">
           Mauricio
@@ -67,7 +67,7 @@ const Main = ({ handleOpenMenu, openMenu }) => {
         }`}
       >
         <button
-          className="w-10 h-10 hover:text-purple-400 transition-all bg-slate-800 rounded-md"
+          className="w-10 h-10 hover:text-purple-400 transition-all bg-slate-800 rounded-md dark:bg-black"
           onClick={handleSelectlenguajeEN}
         >
           EN
@@ -82,15 +82,26 @@ const Main = ({ handleOpenMenu, openMenu }) => {
       </div>
 
       <button
-        className={`flex gap-5 absolute top-4 right-20 transition-all duration-300 sm:right-6  ${
+        className={`flex gap-5 absolute top-[18px] right-20 ease-in-out duration-500sm:right-6  ${
           isShowLenguaje ? "opacity-0" : "opacity-100"
         }`}
         onClick={handleShowLenguaje}
       >
-        <i className="bx bx-world hover:text-purple-400 transition-all from-inherit">
-          Leng
-        </i>
+        <i className="bx bx-world hover:text-purple-400 transition-all from-inherit"></i>
       </button>
+
+      {!isShowLenguaje && (
+        <button
+          onClick={handleChangeTheme}
+          className="rounded-md absolute top-4 right-28 sm:right-12 hover:text-purple-300"
+        >
+          {theme === "dark" ? (
+            <i className="bx bx-moon transition-all"></i>
+          ) : (
+            <i className="bx bx-sun transition-all"></i>
+          )}
+        </button>
+      )}
 
       <Menu handleOpenMenu={handleOpenMenu} openMenu={openMenu} />
     </div>

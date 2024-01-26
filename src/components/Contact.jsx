@@ -15,10 +15,10 @@ const Contact = () => {
   return (
     <div className="h-auto my-10 w-screen">
       <div className="justify-start items-start flex sm:pl-10 my-5">
-        <div className="text-purple-400 text-[32px] font-medium font-['Fira Code']">
+        <div className="text-purple-400 text-[32px] font-medium font-['Fira Code'] dark:text-purple-900">
           #
         </div>
-        <div className="text-white text-[32px] font-medium font-['Fira Code']">
+        <div className="text-white text-[32px] font-medium font-['Fira Code'] dark:text-purple-900">
           {t("contact.2")}
         </div>
         <img
@@ -31,14 +31,14 @@ const Contact = () => {
       <section className="h-auto sm:grid sm:grid-cols-2 sm:grid-rows-[auto,1fr] mx-5 flex-auto sm:gap-2 gap-3 w-full">
         <div
           id="contact"
-          className="sm:max-w-[400px] max-w-[300px] min-w[100px] mx-auto text-justify border p-2 max-h-auto grid place-content-center col-span-1 row-span-1"
+          className="sm:max-w-[400px] max-w-[300px] min-w[100px] mx-auto text-justify border p-2 max-h-auto grid place-content-center col-span-1 row-span-1 dark:border-black"
         >
           <p className="m-5 sm:m-5">{t("contact.1")}</p>
         </div>
 
         {/* contacto */}
 
-        <div className="row-start-2 col-start-1 my-auto mx-auto sm:visible invisible line-clamp-1">
+        <div className="row-start-2 col-start-1 my-auto mx-auto sm:visible invisible line-clamp-1 ">
           <i className="bx bx-chevron-right bx-flashing  font-bold text-5xl"></i>
           <i className="bx bx-chevron-right bx-flashing text-5xl"></i>
           <i className="bx bx-chevron-right bx-flashing text-5xl  font-bold"></i>
@@ -55,7 +55,7 @@ const Contact = () => {
           <i className="bx bx-chevron-down bx-flashing mx-auto"></i>
         </div>
 
-        <div className="grid sm:h-[160px] sm:w-[300px] w-[300px]  h-[100px] col-start-2 row-start-2 border rounded-sm mt-7 mx-auto">
+        <div className="grid sm:h-[160px] sm:w-[300px] w-[300px]  h-[100px] col-start-2 row-start-2 border rounded-sm mt-7 mx-auto dark:border-black">
           <h5 className="font-bold mx-auto my-auto">{t("contact.3")}</h5>
 
           <a
