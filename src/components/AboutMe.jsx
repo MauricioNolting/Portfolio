@@ -32,8 +32,6 @@ const AboutMe = () => {
           <br />
           {t("about-me.3")}
           <br />
-          <br />
-          {t("about-me.4")}
         </p>
       </div>
     </div>
